@@ -1,0 +1,28 @@
+{
+  "name": "startersbot",
+  "version": "2.0.0",
+  "description": "An easy to use Discord bot for starters!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon ./src/bot.js",
+    "start": "node ./src/bot.js"
+  },
+  "keywords": [],
+  "author": "Exstare",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^12.5.3",
+    "dotenv": "^8.2.0",
+    "moment": "^2.29.1"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Exstare/StartersBot.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Exstare/StartersBot/issues"
+  },
+  "homepage": "https://github.com/Exstare/StartersBot#readme"
+}

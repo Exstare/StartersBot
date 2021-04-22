@@ -1,0 +1,31 @@
+This is the template for the commands.
+You give the information about the command in here: 
+>> super('NAME', 'CATEGORY', [`ALIASES`], 'USAGE WITHOUT PREFIX', 'PERMISSIONS');
+
+For example:
+>> super('ban', 'moderation', [`banhim`], 'ban < id | @user >', 'BAN_MEMBERS');
+
+NOTE:
+<> : Required
+[] : Optional
+|  : Splitter
+
+
+--------------------------------------------------------------------
+const BaseCommand = require('../../utils/structures/BaseCommand');
+const c = require('../../data/config/colors');
+const e = require('../../data/config/emojis.json');
+const config = require('../../data/config/config.json');
+const { MessageEmbed } = require('discord.js');
+
+module.exports = class Command extends BaseCommand {
+    constructor() {
+        super('', '', [], '', 'SEND_MESSAGES');
+    }
+
+    async run(client, message, args) {
+
+        //YOUR CODE HERE
+
+    }
+}

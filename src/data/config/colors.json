@@ -1,0 +1,7 @@
+{
+    "main": "#56b3a1",
+    "done": "#00ff00",
+    "fail": "#ff0000",
+    "error": "#fcf000",
+    "pending": "#fcfcfc"
+}
